@@ -20,7 +20,7 @@ class Solution {
     static const int SMALLEST_POSSIBLE_MULTIPLICATION = 1;
 
 public:
-    static int smallestBalancedIndex(vector<int>& input) {
+    int smallestBalancedIndex(vector<int>& input) {
         if (input.size() <= MIN_POSSIBLE_BALANCED_INDEX) {
             return BALANCED_INDEX_NOT_FOUND;
         }
